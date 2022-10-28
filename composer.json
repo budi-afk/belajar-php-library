@@ -1,0 +1,19 @@
+{
+  "name": "budiman/belajar-php-library",
+  "description": "Belajar membuat library",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Budiman\\BelajarPhpLibrary\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "budi-afk",
+      "email": "budiman1347@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
